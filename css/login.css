@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: goldenrod;
+}
+
+.full{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 80%;
+    border: 2px solid;
+    border-radius: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 60%;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+label{
+    font-size: 25px;
+}
+
+input{
+    height: 30px;
+    margin: 20px 0px;
+    border: 2px solid white;
+    padding: 2px;
+    border-radius: 10px;
+}
+form button{
+    margin: 0 auto;
+    height: 40px;
+    width: 30%;
+    background-color: white;
+    color: goldenrod;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.change{
+    display:flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 20px 0px;
+    /* padd: 0%; */
+}
+.change button{
+    width: 20%;
+    margin-left: 80%;
+}
+#signin{
+    display: none;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    margin: 40px 0px ;
+}
+
+button:hover{
+    filter: drop-shadow(2px 2px 5px black);
+    background-color: transparent;
+    border: 2px solid goldenrod;
+}
+
+@media (max-width: 575.98px) {
+    .signup{
+        width: 80%;
+        height: 80%;
+    }
+    form{
+        height: 100%;
+        width: 80%;
+    }
+   
+}
+/* Medium devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+/* Large devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Extra large devices (large desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    
+}
+
+/* Extra extra large devices (1200px and up) */
+@media (min-width: 1200px) {
+  /* Your CSS for extra extra large devices */
+}

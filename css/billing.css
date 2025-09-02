@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: goldenrod;
+}
+.main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    margin-top: 50px;
+    /* background-color: goldenrod; */
+}
+.bill{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 50%;
+    height: 90%;
+    border: 2px solid;
+    border-radius: 50px;
+    background-color: white;
+    border: white;
+    box-shadow: 2px 2px 10px;
+}
+.bill p{
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+    background-color: white;
+    color: goldenrod;
+}
+table{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    margin: auto;
+}
+.btn button {
+    width: 80%;
+    height: 80%;
+}
+td,th,tr{
+    border: 2px solid;
+    width: 20%;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.inputs{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+}
+td input{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+
+.inputs input{
+    height: 30px; 
+    margin:10px 0;
+    border: 2px solid goldenrod;
+    background-color: white;
+}
+.payment{
+    background-color: white;
+    color: goldenrod;
+}
+label{
+    font-size: 25px;
+    background-color: transparent;
+    color: goldenrod;
+}
+button{
+    width: 60%;
+    height: 40px;
+    margin: 20px 0;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+}
+
+footer .page{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.page a,.copyrights p{
+    color: black;
+    margin: 20px;
+}
+footer .copyrights{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .links{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+.links a{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    /* border: 2px solid black; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    border:2px solid goldenrod;
+    background-color: white;
+    color: goldenrod;
+    box-shadow: 2px 2px 20px;
+}
+
+
+@media (max-width: 575.98px) {
+    .bill p{
+        margin: 10px;
+        font-size: 20px;
+    }
+    .inputs{
+        width: 100%;
+        padding: 20px;
+        background-color: white;
+    }
+    .inputs input{
+        height: 20px; 
+        margin:10px 0;
+    }
+    label{
+        font-size: 20px;
+    }
+    .payment p{
+        font-size: 14px;
+    }
+    
+    td,th,tr{
+        height: 20px;
+        font-size: 10px;
+        
+    }
+}
+/* Medium devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .bill p{
+        margin: 10px;
+        font-size: 20px;
+    }
+    .inputs{
+        width: 100%;
+        padding: 20px;
+        background-color: white;
+    }
+    .inputs input{
+        height: 25px; 
+        margin:10px 0;
+    }
+    label{
+        font-size: 20px;
+    }
+    .payment p{
+        font-size: 14px;
+    }
+    
+    td,th,tr{
+        height: 20px;
+        font-size: 16px;
+        
+    }
+}
+/* Large devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .bill p{
+        margin: 10px;
+        font-size: 20px;
+    }
+    .inputs{
+        width: 100%;
+        padding: 20px;
+        background-color: white;
+    }
+    .inputs input{
+        height: 25px; 
+        margin:10px 0;
+    }
+    label{
+        font-size: 20px;
+    }
+    .payment p{
+        font-size: 14px;
+    }
+    
+    td,th,tr{
+        height: 20px;
+        font-size: 16px;
+        
+    }
+}
+
+/* Extra large devices (large desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .bill p{
+        margin: 10px;
+        font-size: 20px;
+    }
+    .inputs{
+        width: 100%;
+        padding: 20px;
+        background-color: white;
+    }
+    .inputs input{
+        height: 25px; 
+        margin:10px 0;
+    }
+    label{
+        font-size: 20px;
+    }
+    .payment p{
+        font-size: 14px;
+    }
+    
+    td,th,tr{
+        height: 20px;
+        font-size: 16px;
+        
+    }
+    
+}
+
+/* Extra extra large devices (1200px and up) */
+@media (min-width: 1200px) {
+  /* Your CSS for extra extra large devices */
+}
+
