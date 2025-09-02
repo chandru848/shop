@@ -18,7 +18,7 @@ if (cart.length === 0) {
         card.innerHTML = `
             <div class="card">
                 <div class="image">
-                    <img src="${"."+(item.image).slice(34)}" alt="product">
+                    <img src="${"."+(item.image).slice(32)}" alt="product">
                 </div>
                 <div class="detail">
                     <p>₹${item.price}</p>
@@ -54,6 +54,7 @@ buy.addEventListener("click",()=>{
     window.location.href = "billing.html";
 })
 document.querySelector("#price").innerHTML = total;
+
 
 
 
